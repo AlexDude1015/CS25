@@ -47,11 +47,6 @@ void get_additional_inputs(int* &ptr_array, int &array_size)
         delete[] ptr_array;
         ptr_array = temp_array;
         temp_array = nullptr;
-        
-        for (int i = 0; i < array_size; i++)
-        {
-            std::cout << *(ptr_array + i);
-        }
     }
 }
 
