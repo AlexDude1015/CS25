@@ -4,6 +4,7 @@
 #include "customer_data.h"
 #include <iostream>
 
+//Asks the user to enter their ID, name, and email.
 void get_inputs(customer &user)
 {
     std::cout << "Enter ID: \n";
@@ -14,6 +15,7 @@ void get_inputs(customer &user)
     std::getline(std::cin, user.email);
 }
 
+//Prints the user's ID, name, and email
 void print(const customer &user)
 {
     std::cout << "You entered the following:\n";
@@ -22,6 +24,7 @@ void print(const customer &user)
     std::cout << "Email: " << user.email << "\n";
 }
 
+//Asks the user if the information they entered looks correct; returns true if correct.
 bool is_correct()
 {
     char response;

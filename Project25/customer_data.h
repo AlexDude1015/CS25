@@ -5,6 +5,7 @@
 #ifndef CUSTOMER_DATA_H
 #define CUSTOMER_DATA_H
 
+//This structure stores basic customer information.
 struct customer
 {
     std::string id;
