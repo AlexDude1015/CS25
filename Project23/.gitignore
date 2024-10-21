@@ -1,0 +1,8 @@
+# Ignore these file extensions
+*.txt
+
+# Ignore all folders
+cmake-build-debug/
+
+
+
