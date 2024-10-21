@@ -3,7 +3,7 @@
 
 # Ignore all folders
 cmake-build-debug/
-.idea/
+.idea
 
 
 
