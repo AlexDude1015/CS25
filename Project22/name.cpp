@@ -2,6 +2,17 @@
 #include <iostream>
 #include "name.h"
 
+//Checks for a space in the user's input
+bool name::is_whole_name(const std::string &original_name)
+{
+    if (original_name.find(" ") == std::string::npos)
+    {
+        return false;
+    }
+    true;
+}
+
+
 //Returns user's complete name
 std::string name::get_whole_name()
 {

@@ -9,6 +9,7 @@
 
 namespace name
 {
+    bool is_whole_name(const std::string& original_name);
     std::string get_whole_name();
     std::string get_first_name(std::string original_name);
     std::string get_last_name(std::string original_name);

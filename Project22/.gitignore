@@ -1,7 +1,5 @@
 # Ignore these file extensions
 *.txt
-*.xml
-*.iml
 
 # Ignore all folders
 cmake-build-debug/
