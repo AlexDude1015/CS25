@@ -1,5 +1,5 @@
 #include <iostream>
-#include <string>
+#include "customer.h"
 #include "customer_data.h"
 
 int main()

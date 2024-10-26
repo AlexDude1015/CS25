@@ -1,17 +1,10 @@
 //
-// Created by Alexander Li on 10/21/24.
+// Created by Alexander Li on 10/25/24.
 //
 
 #ifndef CUSTOMER_DATA_H
 #define CUSTOMER_DATA_H
-
-//This structure stores basic customer information.
-struct customer
-{
-    std::string id;
-    std::string name;
-    std::string email;
-};
+#include "customer.h"
 
 namespace customer_data
 {
@@ -19,6 +12,5 @@ namespace customer_data
     void print(const customer &user);
     bool is_correct();
 }
-
 
 #endif //CUSTOMER_DATA_H
