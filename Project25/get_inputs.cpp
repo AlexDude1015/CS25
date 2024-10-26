@@ -1,9 +1,8 @@
 //
-// Created by Alexander Li on 10/24/24.
+// Created by Alexander Li on 10/25/24.
 //
-#include "customer.h"
-
-//User enters all inputs
+#include <iostream>
+#include <customer.h>
 void customer::get_inputs(Customer &user)
 {
     std::cout << "Enter ID: ";
@@ -19,15 +18,4 @@ void customer::get_inputs(Customer &user)
     std::cout << "Enter your Zipcode: ";
     std::cin >> user.address.zip_code;
     std::cout << "\n\n";
-}
-
-//Prints user's inputs
-void customer::print_results(const Customer &user)
-{
-    std::cout << "ID: " << user.id << std::endl;
-    std::cout << "Name: " << user.name << std::endl;
-    std::cout << "Email: " << user.email << std::endl;
-    std::cout << "Street: " << user.address.street << std::endl;
-    std::cout << "City: " << user.address.city << std::endl;
-    std::cout << "Zipcode: " << user.address.zip_code << std::endl;
 }
