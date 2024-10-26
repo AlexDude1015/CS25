@@ -1,19 +1,10 @@
 //
-// Created by Alexander Li on 10/20/24.
+// Created by Alexander Li on 10/26/24.
 //
 #include <iostream>
 #include <cctype>
 #include <string>
 #include "customer_number.h"
-
-//Gets the user's customer number
-std::string customer_number::get_user_input()
-{
-    std::string user_input;
-    std::cout << "Please enter your customer number: \n";
-    std::getline(std::cin, user_input);
-    return user_input;
-}
 
 //Checks the number's size, alphabetical, and numeric characters. Returns true if valid.
 bool customer_number::is_valid(const std::string& customer_number)
