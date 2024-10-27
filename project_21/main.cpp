@@ -1,6 +1,4 @@
 #include <iostream>
-#include <memory>
-#include <ctype.h>
 #include "header.h"
 
 int main()
