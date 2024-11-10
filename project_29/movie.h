@@ -16,7 +16,7 @@ namespace movies
             int release_year;
 
         public:
-            Movie(std::string user_input);
+            Movie(const std::string& user_input);
             //void add_movie(const std::string& user_input);
             std::string get_title() const;
             int get_release_year() const;

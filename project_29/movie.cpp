@@ -3,12 +3,10 @@
 //
 #include "movie.h"
 
-#include <__chrono/year.h>
-
 namespace movies
 {
     //Pareses a string and stores the object's title and release year.
-    Movie::Movie(std::string user_input)
+    Movie::Movie(const std::string& user_input)
     {
         std::stringstream stream(user_input);
         std::getline(stream, title, ',');
