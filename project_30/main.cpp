@@ -1,7 +1,6 @@
 #include <iostream>
 #include "Text_box.h"
 
-
 int main()
 {
     Text_box box("Constructor success!");
